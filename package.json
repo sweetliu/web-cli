@@ -1,0 +1,23 @@
+{
+  "name": "web-cli",
+  "version": "1.0.0",
+  "description": "前端项目构建脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/sweetliu/web-cli.git",
+  "author": "sweet",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  },
+  //全局使用命令
+  //根目录下执行 npm link可将web-cli添加到全局，以后直接执行web-cli即可
+  "bin": {
+    "web-cli": "bin/web-cli"
+  },
+}
